@@ -459,8 +459,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - GitHub: [@idriss112](https://github.com/idriss112)
 - Email: idrsslzr3@gmail.com
-- Portfolio: [Half Raw Motion Photography](https://halfrawmotion.com)
-- LinkedIn: [Connect with me](https://www.linkedin.com/in/driss-laaziri)
+
+- LinkedIn: [Connect with me](https://www.linkedin.com/in/idrisslzr/)
 
 ---
 
