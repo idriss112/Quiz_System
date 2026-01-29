@@ -458,7 +458,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Driss Laaziri**
 
 - GitHub: [@idriss112](https://github.com/idriss112)
-- Email: idrsslzr3@gmail.com
+- Email: idrsslaaziri@gmail.com
 
 - LinkedIn: [Connect with me](https://www.linkedin.com/in/idrisslzr/)
 
