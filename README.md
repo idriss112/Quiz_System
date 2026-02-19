@@ -1,4 +1,4 @@
-# 🎯 Quiz Management System
+#  Quiz Management System
 
 <div align="center">
 
@@ -17,7 +17,7 @@ A modern, secure, and user-friendly web-based quiz management system built with 
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [About](#-about)
 - [Features](#-features)
@@ -36,97 +36,97 @@ A modern, secure, and user-friendly web-based quiz management system built with 
 
 ---
 
-## 🎓 About
+##  About
 
 The **Quiz Management System** is a full-featured web application designed to facilitate online quiz creation, management, and participation. Built entirely with pure PHP, MySQL, and vanilla JavaScript, this system demonstrates clean coding practices and modern web development techniques without relying on frameworks.
 
 ### Key Highlights
 
-- 🔐 **Secure Authentication**: Bcrypt password hashing with role-based access control
-- 👥 **Multi-Role System**: Separate dashboards for administrators and participants
-- 📊 **Real-Time Updates**: AJAX-powered interactions for seamless user experience
-- 🎯 **Quiz Management**: Complete CRUD operations for quizzes and questions
-- 📈 **Results Analytics**: Detailed performance tracking and export functionality
-- 🎨 **Modern UI/UX**: Clean, responsive design with custom CSS
-- 🔄 **Session & Cookie Management**: Persistent login with secure session handling
-- 📱 **Responsive Design**: Mobile-first approach for all devices
+-  **Secure Authentication**: Bcrypt password hashing with role-based access control
+-  **Multi-Role System**: Separate dashboards for administrators and participants
+-  **Real-Time Updates**: AJAX-powered interactions for seamless user experience
+-  **Quiz Management**: Complete CRUD operations for quizzes and questions
+-  **Results Analytics**: Detailed performance tracking and export functionality
+-  **Modern UI/UX**: Clean, responsive design with custom CSS
+-  **Session & Cookie Management**: Persistent login with secure session handling
+-  **Responsive Design**: Mobile-first approach for all devices
 
 ---
 
-## ✨ Features
+##  Features
 
-### For Administrators 👨‍💼
+### For Administrators 
 
-- ✅ **User Management**
+-  **User Management**
   - Create, view, update, and delete user accounts
   - Assign roles (Admin/Participant)
   - View paginated user lists with navigation
   - Monitor user activity and statistics
   - Bulk user operations
 
-- ✅ **Quiz Management**
+-  **Quiz Management**
   - Create unlimited quizzes with custom titles
   - Add, edit, and delete questions dynamically
   - Import questions from external sources
   - Manage quiz settings (time limits, attempts, visibility)
   - Organize quizzes by categories
 
-- ✅ **Question Bank**
+-  **Question Bank**
   - Build comprehensive question libraries
   - Support for multiple question types
   - Import/export questions functionality
   - Reusable questions across multiple quizzes
 
-- ✅ **Results & Analytics**
+-  **Results & Analytics**
   - View all participant results
   - Export results to various formats
   - Generate detailed performance reports
   - Track quiz completion rates
   - Monitor individual and group performance
 
-- ✅ **Dashboard**
+-  **Dashboard**
   - Real-time statistics overview
   - Total users, quizzes, and participants count
   - Quick access to key functions
   - Activity monitoring
 
-### For Participants 👨‍🎓
+### For Participants 
 
-- ✅ **Quiz Taking Experience**
+-  **Quiz Taking Experience**
   - Browse available quizzes in quiz list
   - Take quizzes with clean interface
   - Auto-save progress during quiz
   - Timer functionality (if enabled)
   - Immediate feedback on submission
 
-- ✅ **Personal Dashboard**
+-  **Personal Dashboard**
   - View assigned and available quizzes
   - Track completed quizzes history
   - See scores and performance
   - Access quiz results and feedback
 
-- ✅ **Profile Management**
+-  **Profile Management**
   - Update personal information
   - Change password securely
   - View quiz history
   - Track personal statistics
 
-### Common Features 🔧
+### Common Features 
 
-- ✅ **Authentication System**
+-  **Authentication System**
   - Secure login and registration
   - Password recovery (if implemented)
   - Role-based access control
   - Session persistence with "Remember Me"
   - Auto-logout on inactivity
 
-- ✅ **Responsive Interface**
+-  **Responsive Interface**
   - Works on desktop, tablet, and mobile
   - Consistent design across all pages
   - Intuitive navigation
   - Modern and clean UI
 
-- ✅ **AJAX Integration**
+-  **AJAX Integration**
   - Seamless page updates without reload
   - Real-time form validation
   - Dynamic content loading
@@ -134,7 +134,7 @@ The **Quiz Management System** is a full-featured web application designed to fa
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 ### Backend Technologies
 - **PHP 7.4+**: Core server-side programming language
@@ -170,7 +170,7 @@ The **Quiz Management System** is a full-featured web application designed to fa
 
 ---
 
-## 💻 System Requirements
+##  System Requirements
 
 - **PHP**: 7.4 or higher
 - **MySQL**: 5.7 or higher
@@ -179,7 +179,7 @@ The **Quiz Management System** is a full-featured web application designed to fa
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Step 1: Clone the Repository
 
@@ -217,7 +217,7 @@ class Database {
 
 ---
 
-## 🗄 Database Setup
+##  Database Setup
 
 ### Option 1: Import SQL File
 
@@ -254,7 +254,7 @@ INSERT INTO users (nom, email, mot_de_passe, role) VALUES
 
 ---
 
-## 📖 Usage
+##  Usage
 
 ### Access the Application
 
@@ -281,7 +281,7 @@ INSERT INTO users (nom, email, mot_de_passe, role) VALUES
 4. **Add Questions** to your quizzes
 5. **Test** by logging in as a participant
 
-## 🔒 Security Features
+##  Security Features
 
 ### Password Security
 ```php
@@ -322,7 +322,7 @@ echo htmlspecialchars($userInput, ENT_QUOTES, 'UTF-8');
 
 ---
 
-## 📄 Key Pages
+##  Key Pages
 
 ### Public Pages
 - **`index.php`** - Homepage and entry point
@@ -360,7 +360,7 @@ echo htmlspecialchars($userInput, ENT_QUOTES, 'UTF-8');
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 ### AJAX Integration
 The system uses AJAX for dynamic interactions located in the `ajax/` directory:
@@ -396,7 +396,7 @@ $.ajax({
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -416,7 +416,7 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-## 📝 Future Enhancements
+##  Future Enhancements
 
 - [ ] **Email Notifications** - Send quiz reminders and results
 - [ ] **Password Reset** - Forgot password functionality
@@ -439,7 +439,7 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-## 🐛 Known Issues
+##  Known Issues
 
 - Session timeout may need adjustment based on server settings
 - Large file uploads may require PHP configuration changes
@@ -447,13 +447,13 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Driss Laaziri**
 
@@ -463,7 +463,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **PHP Community** for excellent documentation and resources
 - **MySQL** for robust database management
@@ -471,27 +471,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Google Fonts** for the Inter font family
 - **Open Source Community** for inspiration and best practices
 
----
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-
-1. **Check the [Issues](https://github.com/idriss112/quiz-system/issues)** page
-2. **Create a new issue** if your problem isn't already reported
-3. **Contact via email** for urgent matters: idrsslzr3@gmail.com
 
 ---
 
-## ⭐ Show Your Support
+##  Show Your Support
 
 If you found this project helpful or interesting, please consider:
 
-- ⭐ **Starring the repository** on GitHub
-- 🔄 **Forking the project** to create your own version
-- 📢 **Sharing with others** who might find it useful
-- 🐛 **Reporting bugs** to help improve the system
-- 💡 **Suggesting features** for future enhancements
+-  **Starring the repository** on GitHub
+-  **Forking the project** to create your own version
+-  **Sharing with others** who might find it useful
+-  **Reporting bugs** to help improve the system
+-  **Suggesting features** for future enhancements
 
 ---
 
